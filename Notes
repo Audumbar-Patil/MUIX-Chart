@@ -1,0 +1,40 @@
+Start your React project - npx create-react-app MyLineChart (put this code in the terminal/console). 
+Now you will have a folder named MyLineChart and the folder/file arrangement will be somewhat like this 
+
+MyLineChart -
+---node_modules
+---public
+---src
+---.gitignore
+---package-lock.json
+---package.json
+---README.md 
+
+Now we will work with the src folder where all the files containing the code for our lineGraph will be saved.
+The src folder will look somewaht like this 
+
+src 
+---App.css
+---App.js
+---App.test.js
+---index.css
+---index.js
+---logo.svg
+---reportWebVitals.js
+---setupTest.js
+
+Here add a new file (inside the src folder) and name it MyLineChar.js, so this will add a new component 
+
+---MyLineChart.js 
+
+in the src folder. 
+
+Now go to your terminal and enter the code below to download MUI X Charts 
+
+npm install @mui/x-charts react@latest react-dom@latest @mui/material@latest @emotion/react@latest @emotion/styled@latest
+
+Check in the package.json file for all these dependencies downloaded properly. 
+
+Now refer to the code I have uploaded. Information about the code will be written in CodeExplanation file.
+
+
